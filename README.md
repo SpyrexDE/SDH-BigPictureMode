@@ -1,4 +1,5 @@
 # SDH-BigPictureMode
+<img src="https://img.youtube.com/vi/q99-cMG6Z1k/0.jpg" href="https://www.youtube.com/watch?v=q99-cMG6Z1k" height=200 align="right" title="Watch YouTube demo video"></img>
 Plugin for the Steam Deck [homebrew plugin manager](https://github.com/SteamDeckHomebrew/PluginLoader) that allows you to switch into and out of Big Picture via the quick access menu.
 
 Surprisingly, Steam's well-known BigPicture mode is out of the box compatible with the Steam Decks gaming mode. It even combines the **best of both worlds**:
