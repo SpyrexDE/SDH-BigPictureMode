@@ -1,0 +1,16 @@
+<div class="quickaccesscontrols_PanelSectionRow_26R5w">
+    <div class="basicdialog_Field_ugL9c basicdialog_WithChildrenBelow_1RjOd basicdialog_InlineWrapShiftsChildrenBelow_3a6QZ basicdialog_ExtraPaddingOnChildrenBelow_2-owv basicdialog_StandardPadding_1HrfN basicdialog_HighlightOnFocus_1xh2W Panel Focusable" style="--indent-level:0;">
+        <div class="basicdialog_FieldChildren_279n8">
+            <button id ="tile_btn" type="button" tabindex="0" class="DialogButton _DialogLayout Secondary basicdialog_Button_1Ievp Focusable">🖼️ Big Picture Mode</button>
+        </div>    
+    </div>
+</div>
+<script>
+    (async function() {
+        if(await call_plugin_method("get_BPM")) {
+            document.getElementById("tile_btn").innerHTML = "🖼️ Leave Big Picture Mode";
+        } else {
+            document.getElementById("tile_btn").innerHTML = "🖼️ Big Picture Mode";
+        }
+    })();
+</script>

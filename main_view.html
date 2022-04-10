@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/steam_resource/css/2.css">
+        <link rel="stylesheet" href="/steam_resource/css/39.css">
+        <link rel="stylesheet" href="/steam_resource/css/library.css">
+        <script src="/static/library.js"></script>
+    </head>
+    <body>
+        <center><p id="label" style="top: 50%; margin-top: 50%;">Loading</p></center>
+        <script>
+            (async function() {
+                if(await call_plugin_method("get_BPM")) {
+                    document.getElementById("label").innerHTML = "Leaving Big Picture Mode...";
+                    call_plugin_method("close_BPM")
+                } else {
+                    document.getElementById("label").innerHTML = "Starting Big Picture Mode...";
+                    call_plugin_method("open_BPM")
+                }
+            })();
+
+            window.setTimeout(load_plugins, 5000);
+            
+            function load_plugins() {
+                location.href = "http://127.0.0.1:1337/plugins/iframe";
+            }
+        </script>
+    </body>
+</html>
