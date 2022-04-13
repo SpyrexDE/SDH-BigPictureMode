@@ -1,16 +1,6 @@
 import subprocess
 
 class Plugin:
-    name = "BigPictureMode"
-
-    author = "Spyrex"
-
-    hot_reload = True
-
-    main_view_html = "main_view.html"
-
-    tile_view_html = "tile_view.html"
-
     BPM = False
 
     async def open_BPM(self):
