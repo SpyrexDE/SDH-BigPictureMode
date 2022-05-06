@@ -3,5 +3,10 @@
     "author": "Spyrex",
     "main_view_html": "main_view.html",
     "tile_view_html": "tile_view.html",
-    "flags": ["_hot_reload"]
+    "flags": ["_hot_reload"],
+    "publish": {
+        "discord_id": "268097864608120832",
+        "description": "Allows you to switch from Gaming Mode to Big Picture mode",
+        "tags": ["utility", "steam"]
+        }
 }
