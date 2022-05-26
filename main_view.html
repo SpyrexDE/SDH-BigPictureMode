@@ -14,7 +14,7 @@
                     call_plugin_method("close_BPM")
                 } else {
                     document.getElementById("label").innerHTML = "Starting Big Picture Mode...";
-                    call_plugin_method("set_BPM", {"val": true});
+                    call_plugin_method("set_BPM");
                     execute_in_tab("SP", true, "SteamClient.System.SwitchToBigPictureMode()")
                 }
             })();
